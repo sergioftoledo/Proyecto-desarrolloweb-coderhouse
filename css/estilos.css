@@ -258,7 +258,7 @@ main .seccion-5-contenedor .seccion-5-contenedor-vinos:hover {
 @media (min-width: 820px) {
   main .seccion-5-contenedor .seccion-5-contenedor-vinos {
     margin: 13px 5px;
-    width: 330px;
+    width: 315px;
   }
 }
 main .seccion-6 {
@@ -547,7 +547,7 @@ html body main .contenedor-selecciones-especiales .contenedor-vinos-regalos,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-alta-gama,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-autor,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-mas-vendidos {
-    width: 330px;
+    width: 315px;
     margin: 13px 5px;
   }
 }
@@ -563,7 +563,7 @@ html body main .contenedor-selecciones-especiales .contenedor-selecciones-img {
 }
 @media (min-width: 820px) {
   html body main .contenedor-selecciones-especiales .contenedor-selecciones-img {
-    width: 319px;
+    width: 305px;
   }
 }
 html body main .contenedor-selecciones-especiales .descripcion-producto-selecciones {
@@ -698,7 +698,7 @@ html body main .contenedor-categorias-vinos .contenedor-vinos-espumantes {
 html body main .contenedor-categorias-vinos .contenedor-vinos-blancos,
 html body main .contenedor-categorias-vinos .contenedor-vinos-rosados,
 html body main .contenedor-categorias-vinos .contenedor-vinos-espumantes {
-    width: 330px;
+    width: 315px;
     margin: 13px 5px;
   }
 }
@@ -714,7 +714,7 @@ html body main .contenedor-categorias-vinos .contenedor-categorias-vinos-img {
 }
 @media (min-width: 820px) {
   html body main .contenedor-categorias-vinos .contenedor-categorias-vinos-img {
-    width: 319px;
+    width: 305px;
   }
 }
 html body main .contenedor-categorias-vinos .descripcion-producto {
