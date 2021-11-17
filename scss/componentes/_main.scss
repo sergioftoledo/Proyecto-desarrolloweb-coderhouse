@@ -173,13 +173,13 @@ main {
             }
             
             .boton-comprar {
-                color: #000;
+                color: #fff;
                 background-image: linear-gradient(90deg, #04146d 0%, #d90429 100%);
                 font-weight: 600;
                 font-size: 0.7rem;
                 margin: 0px 38px 8px;
                 padding: 2px;
-                border-radius: 100px;
+                border-radius: 10px;
                 cursor: pointer;
             
                 &:hover {
