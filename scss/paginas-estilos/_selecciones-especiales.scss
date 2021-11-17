@@ -1,0 +1,180 @@
+@import "./../base/extends";
+@import "./../base/listas";
+@import "./../base/mixins";
+
+html {
+    body {
+        main {
+            .contenedor-selecciones {
+                background: nth($colores, 1);
+            
+            }
+
+            .titulo-selecciones {
+                text-align: center;
+                font-size: 23px;
+                padding: 94px 0 30px;
+                text-transform: uppercase;
+                color: nth($colores, 2);
+            }
+
+            @media (min-width: 820px) {
+                .titulo-selecciones {
+                    font-size: 31px;
+                }
+            }
+
+            .contenedor-selecciones-especiales {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .contenedor-vinos-ganadores,
+                .contenedor-vinos-combinados,
+                .contenedor-vinos-regalos,
+                .contenedor-vinos-alta-gama,
+                .contenedor-vinos-autor,
+                .contenedor-vinos-mas-vendidos {
+                    width: 121px;
+                    display: block;
+                    margin: 6px 0;
+                    border-radius: 15px;
+                    background-color: #f8f9fa;
+
+                    div {
+                        border-bottom: 1px solid black;
+                    }
+                    
+                    &:hover {
+                        border: 2px solid #80ffdb;
+                        transform: scale(1.07);
+                        transition: 0.4s;
+                    }
+                }
+
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .contenedor-vinos-ganadores,
+                    .contenedor-vinos-combinados,
+                    .contenedor-vinos-regalos,
+                    .contenedor-vinos-alta-gama,
+                    .contenedor-vinos-autor,
+                    .contenedor-vinos-mas-vendidos {
+                        margin-bottom: 15px;
+                        width: 218px;
+                    }
+                }
+
+                @media (min-width: 820px) {
+                    .contenedor-vinos-ganadores,
+                    .contenedor-vinos-combinados,
+                    .contenedor-vinos-regalos,
+                    .contenedor-vinos-alta-gama,
+                    .contenedor-vinos-autor,
+                    .contenedor-vinos-mas-vendidos {
+                        width: 330px;
+                        margin: 13px 5px;
+                    }
+                }
+
+                .contenedor-selecciones-img {
+                    width: 111px;
+                    @include margen (6px 5px);
+                    border-radius: 5px;
+                }
+
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .contenedor-selecciones-img {
+                        width: 200px;
+                    }
+                }
+
+                @media (min-width: 820px) {
+                    .contenedor-selecciones-img {
+                        width: 319px;
+                    }
+                }
+
+                .descripcion-producto-selecciones {
+                    font-size: 8px;
+                    @include margen (6px 3px);
+                    color: nth($colores, 3);
+                    @include grosor-letras (600);
+                    font-style: italic;   
+                }
+
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .descripcion-producto-selecciones {
+                        font-size: 14px; 
+                    }
+                }
+
+                @media (min-width: 820px) {
+                    .descripcion-producto-selecciones {
+                        font-size: 1rem; 
+                    }
+                }
+
+                .precio-vino-selecciones {
+                    @include margen (5px 33px);
+                    color: nth($colores, 3);
+                    font-size: 14px;
+                    @include grosor-letras (900);
+                    font-style: italic;
+                }
+                
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .precio-vino-seleccciones {
+                        margin: 5px 79px;
+                        font-size: 19px;
+                    }
+                }
+                
+                @media (min-width: 820px) {
+                    .precio-vino-seleccciones {
+                        margin: 5px 135px;
+                        font-size: 1.35rem;
+                    }
+                }
+
+                .boton-comprar {
+                    color: nth($colores, 2);
+                    background-image: linear-gradient(90deg, #04146d 0%, #d90429 100%);
+                    @include grosor-letras (600);
+                    font-size: 11px;
+                    @include margen (0 30px 8px);
+                    padding: 4px;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: nth($colores, 2);
+                        border: 1px solid red;
+                        background-image: linear-gradient(200deg, #04146d 0%, #d90429 100%);
+                        transform: scale(1.07);
+                        transition: 0.4s ease-in-out;
+                    }
+                }
+                
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .boton-comprar {
+                        font-size: 14px;
+                        margin: 0 72px 8px;
+                        padding: 6px;
+                    }
+                }
+                
+                @media (min-width: 820px) {
+                    .boton-comprar {
+                        font-size: 1.2rem;
+                        margin: 3px 117px 5px;
+                        padding: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

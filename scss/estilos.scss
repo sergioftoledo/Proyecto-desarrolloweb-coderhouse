@@ -1,0 +1,38 @@
+/*Se resetea el margin y el padding para poner manualmente los valores y así evitar problemas con los navegadores en cuanto a los valores
+ por defecto que estos pueden asignar. Además, se asigna la declaración box-sizing: border-box para decirle al navegador que tenga en cuenta
+ cualquier valor de border o de padding para el ancho o alto de un elemento*/
+
+ * {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    body {
+    background-color:#000;
+    font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+
+/* Fuente que se usará para toda la página */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,300&display=swap');
+
+/* Header */
+@import "./componentes/header";
+
+/* Principal */
+@import "./componentes/main";
+
+/* Footer */
+@import "./componentes/footer";
+
+/* Estilos para los html menos el index*/
+@import "./paginas-estilos/selecciones-especiales";
+@import "./paginas-estilos/vinos-categorias";
+@import "./paginas-estilos/acerca";
+@import "./paginas-estilos/contacto";

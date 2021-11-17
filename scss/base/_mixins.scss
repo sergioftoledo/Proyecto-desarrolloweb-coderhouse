@@ -1,0 +1,7 @@
+@mixin grosor-letras ($valor) {
+    font-weight: $valor;
+}
+
+@mixin margen ($valor) {
+    margin: $valor;
+}

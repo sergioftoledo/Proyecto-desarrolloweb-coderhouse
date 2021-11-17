@@ -1,0 +1,162 @@
+@import "./../base/extends";
+@import "./../base/listas";
+@import "./../base/mapas";
+@import "./../base/mixins";
+
+html {
+    body {
+        main {
+            .titulo {
+                @extend %categorias-vinos-titulos;
+            }
+
+            @media (min-width: 820px) {
+                .titulo {
+                    font-size: 31px;
+                }
+            }
+
+            .contenedor-categorias-vinos {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .contenedor-vinos-tintos,
+                .contenedor-vinos-blancos,
+                .contenedor-vinos-rosados,
+                .contenedor-vinos-espumantes {
+                    @extend %contenedor-vinos-categorias;
+
+                    div {
+                        border-bottom: 1px solid black; 
+                    }
+                    
+                    &:hover {
+                        border: 2px solid #80ffdb;
+                        transform: scale(1.07);
+                        transition: 0.4s;
+                    }
+                }
+
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .contenedor-vinos-tintos,
+                    .contenedor-vinos-blancos,
+                    .contenedor-vinos-rosados,
+                    .contenedor-vinos-espumantes {
+                        margin-bottom: 15px;
+                        width: 218px;
+                    }
+                }
+
+                @media (min-width: 820px) {
+                    .contenedor-vinos-tintos,
+                    .contenedor-vinos-blancos,
+                    .contenedor-vinos-rosados,
+                    .contenedor-vinos-espumantes {
+                        width: 330px;
+                        margin: 13px 5px;
+                    }
+                }
+
+                .contenedor-categorias-vinos-img {
+                    width: map-get($vinos-categorias-img, ancho-categorias-img);
+                    margin: map-get($vinos-categorias-img, margen-img);
+                    border-radius: map-get($vinos-categorias-img, borde-img);
+                }
+
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .contenedor-categorias-vinos-img {
+                        width: 200px;
+                    }
+                }
+
+                @media (min-width: 820px) {
+                    .contenedor-categorias-vinos-img {
+                        width: 319px;
+                    }
+                }
+
+                .descripcion-producto {
+                    font-size: 8px;
+                    margin: 6px 3px;
+                    color: nth($colores, 3);
+                    @include grosor-letras (600);
+                    font-style: italic;   
+                }
+
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .descripcion-producto {
+                        font-size: 14px; 
+                    }
+                }
+
+                @media (min-width: 820px) {
+                    .descripcion-producto {
+                        font-size: 1rem; 
+                    }
+                }
+
+                .precio-vino {
+                    margin: 5px 33px;
+                    color: nth($colores, 3);
+                    font-size: 14px;
+                    @include grosor-letras (900);
+                    font-style: italic;
+                }
+                
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .precio-vino {
+                        margin: 5px 79px;
+                        font-size: 19px;
+                    }
+                }
+                
+                @media (min-width: 820px) {
+                    .precio-vino {
+                        margin: 5px 135px;
+                        font-size: 1.35rem;
+                    }
+                }
+                
+                .boton-comprar {
+                    color: nth($colores, 2);
+                    background-image: linear-gradient(90deg, #04146d 0%, #d90429 100%);
+                    @include grosor-letras (600);
+                    font-size: 11px;
+                    margin: 0 22px 8px;
+                    padding: 4px;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: nth($colores, 2);
+                        border: 1px solid red;
+                        background-image: linear-gradient(200deg, #04146d 0%, #d90429 100%);
+                        transform: scale(1.07);
+                        transition: 0.4s ease-in-out;
+                    }
+                }
+                
+                @media (min-width: 700px) and (max-width: 820px) {
+                    .boton-comprar {
+                        font-size: 14px;
+                        margin: 0 72px 8px;
+                        padding: 6px;
+                    }
+                }
+                
+                @media (min-width: 820px) {
+                    .boton-comprar {
+                        font-size: 1.2rem;
+                        margin: 3px 117px 5px;
+                        padding: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

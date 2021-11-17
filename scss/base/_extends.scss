@@ -1,0 +1,17 @@
+@import "./listas";
+/* Contenedor categorias de vinos*/
+%contenedor-vinos-categorias {
+    width: 121px;
+    display: block;
+    margin: 6px 0;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+}
+
+%categorias-vinos-titulos {
+    text-align: center;
+    font-size: 23px;
+    padding: 94px 0 30px;
+    text-transform: uppercase;
+    color: nth($colores, 2);
+}
