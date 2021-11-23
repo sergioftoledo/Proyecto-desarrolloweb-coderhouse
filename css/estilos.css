@@ -258,7 +258,7 @@ main .seccion-5-contenedor .seccion-5-contenedor-vinos:hover {
 @media (min-width: 820px) {
   main .seccion-5-contenedor .seccion-5-contenedor-vinos {
     margin: 13px 5px;
-    width: 315px;
+    width: 307px;
   }
 }
 main .seccion-6 {
@@ -537,7 +537,7 @@ html body main .contenedor-selecciones-especiales .contenedor-vinos-alta-gama,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-autor,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-mas-vendidos {
     margin-bottom: 15px;
-    width: 218px;
+    width: 208px;
   }
 }
 @media (min-width: 820px) {
@@ -547,7 +547,7 @@ html body main .contenedor-selecciones-especiales .contenedor-vinos-regalos,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-alta-gama,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-autor,
 html body main .contenedor-selecciones-especiales .contenedor-vinos-mas-vendidos {
-    width: 315px;
+    width: 307px;
     margin: 13px 5px;
   }
 }
@@ -563,7 +563,7 @@ html body main .contenedor-selecciones-especiales .contenedor-selecciones-img {
 }
 @media (min-width: 820px) {
   html body main .contenedor-selecciones-especiales .contenedor-selecciones-img {
-    width: 305px;
+    width: 295px;
   }
 }
 html body main .contenedor-selecciones-especiales .descripcion-producto-selecciones {
@@ -575,7 +575,7 @@ html body main .contenedor-selecciones-especiales .descripcion-producto-seleccio
 }
 @media (min-width: 700px) and (max-width: 820px) {
   html body main .contenedor-selecciones-especiales .descripcion-producto-selecciones {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 @media (min-width: 820px) {
@@ -591,14 +591,14 @@ html body main .contenedor-selecciones-especiales .precio-vino-selecciones {
   font-style: italic;
 }
 @media (min-width: 700px) and (max-width: 820px) {
-  html body main .contenedor-selecciones-especiales .precio-vino-seleccciones {
+  html body main .contenedor-selecciones-especiales .precio-vino-selecciones {
     margin: 5px 79px;
     font-size: 19px;
   }
 }
 @media (min-width: 820px) {
-  html body main .contenedor-selecciones-especiales .precio-vino-seleccciones {
-    margin: 5px 135px;
+  html body main .contenedor-selecciones-especiales .precio-vino-selecciones {
+    margin: 5px 131px;
     font-size: 1.35rem;
   }
 }
@@ -698,7 +698,7 @@ html body main .contenedor-categorias-vinos .contenedor-vinos-espumantes {
 html body main .contenedor-categorias-vinos .contenedor-vinos-blancos,
 html body main .contenedor-categorias-vinos .contenedor-vinos-rosados,
 html body main .contenedor-categorias-vinos .contenedor-vinos-espumantes {
-    width: 315px;
+    width: 307px;
     margin: 13px 5px;
   }
 }
@@ -714,7 +714,7 @@ html body main .contenedor-categorias-vinos .contenedor-categorias-vinos-img {
 }
 @media (min-width: 820px) {
   html body main .contenedor-categorias-vinos .contenedor-categorias-vinos-img {
-    width: 305px;
+    width: 295px;
   }
 }
 html body main .contenedor-categorias-vinos .descripcion-producto {

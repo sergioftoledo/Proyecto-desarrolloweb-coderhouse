@@ -64,7 +64,7 @@ html {
                     .contenedor-vinos-autor,
                     .contenedor-vinos-mas-vendidos {
                         margin-bottom: 15px;
-                        width: 218px;
+                        width: 208px;
                     }
                 }
 
@@ -75,7 +75,7 @@ html {
                     .contenedor-vinos-alta-gama,
                     .contenedor-vinos-autor,
                     .contenedor-vinos-mas-vendidos {
-                        width: 315px;
+                        width: 307px;
                         margin: 13px 5px;
                     }
                 }
@@ -94,7 +94,7 @@ html {
 
                 @media (min-width: 820px) {
                     .contenedor-selecciones-img {
-                        width: 305px;
+                        width: 295px;
                     }
                 }
 
@@ -108,7 +108,7 @@ html {
 
                 @media (min-width: 700px) and (max-width: 820px) {
                     .descripcion-producto-selecciones {
-                        font-size: 14px; 
+                        font-size: 11px; 
                     }
                 }
 
@@ -127,15 +127,15 @@ html {
                 }
                 
                 @media (min-width: 700px) and (max-width: 820px) {
-                    .precio-vino-seleccciones {
+                    .precio-vino-selecciones {
                         margin: 5px 79px;
                         font-size: 19px;
                     }
                 }
                 
                 @media (min-width: 820px) {
-                    .precio-vino-seleccciones {
-                        margin: 5px 135px;
+                    .precio-vino-selecciones {
+                        margin: 5px 131px;
                         font-size: 1.35rem;
                     }
                 }
