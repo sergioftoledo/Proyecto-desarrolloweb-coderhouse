@@ -11,9 +11,9 @@
     tenemos las mejores ofertas y descuentos Exclusivos.">
     <!-- Meta etiqueta keywords -->
     <meta name="keywords" content="vinos finos, vinos argentinos, vinos blancos, vinos dulces, vinos Malbec, vinos y spirits, vinos caros, vinos alta gama,
-     vinos argentinos Malbec, vinos argentinos premiados, vinos al por mayor, vinos argentinos famosos, vinos blancos dulces, vinos baratos, vinos blancos,
-      secos, vinos blancos variedades, vinos buenos y baratos argentina 2021, vinos chilenos, vinos de san juan, vinos de Mendoza, vinos dulces tinto,
-       vinos de salta, vinos espumantes, vinos franceses, vinos finos para regalar, vinos finos Malbec">
+    vinos argentinos Malbec, vinos argentinos premiados, vinos al por mayor, vinos argentinos famosos, vinos blancos dulces, vinos baratos, vinos blancos,
+    secos, vinos blancos variedades, vinos buenos y baratos argentina 2021, vinos chilenos, vinos de san juan, vinos de Mendoza, vinos dulces tinto,
+    vinos de salta, vinos espumantes, vinos franceses, vinos finos para regalar, vinos finos Malbec">
     <!-- Protocolo Open Graph -->
     <meta property="og:title" content="GoodWine | Lo mejor del buen vino">
     <meta property="og:url" content="url del index">
@@ -38,7 +38,7 @@
     <!--Cabecera-->
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
+            <div class="container-fluid" data-aos="flip-up" data-aos-duration="1500">
               <!-- Logo de la página -->
               <a class="navbar-brand" href="./index.html"><img src="./src/multimedia/imagenes/logowine.png" alt="GoodWine | Lo mejor del buen vino"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,10 +55,10 @@
                       Categorías
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="./src/paginas/vinos-blancos.html">Vinos Blancos</a></li>
-                      <li><a class="dropdown-item" href="./src/paginas/vinos-tintos.html">Vinos Tintos</a></li>
-                      <li><a class="dropdown-item" href="./src/paginas/vinos-rosados.html">Vinos Rosados</a></li>
-                      <li><a class="dropdown-item" href="./src/paginas/vinos-espumantes.html">Vinos Espumantes</a></li>
+                      <li><a class="dropdown-item" href="./src/paginas/vinos-blancos.html" target="_blank">Vinos Blancos</a></li>
+                      <li><a class="dropdown-item" href="./src/paginas/vinos-tintos.html" target="_blank">Vinos Tintos</a></li>
+                      <li><a class="dropdown-item" href="./src/paginas/vinos-rosados.html" target="_blank">Vinos Rosados</a></li>
+                      <li><a class="dropdown-item" href="./src/paginas/vinos-espumantes.html" target="_blank">Vinos Espumantes</a></li>
                       <li><a class="dropdown-item" href="#selecciones_especiales">Selecciones Especiales</a></li>
                     </ul>
                   </li>
@@ -83,12 +83,11 @@
         <!-- Acá va un carrucel con 5 videos que van a ir pasando automática y/o manualmente -->
         <!-- Carrusel de Bootstrap con controles e indicadores-->
         <section class="seccion-1 container-fluid" id="ir-a-inicio">
-            <div id="carouselExampleIndicators" class="carousel slide row" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide row" data-bs-ride="carousel" data-aos="zoom-in-up" data-aos-duration="1500">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner col-12">
                     <div class="carousel-item active">
@@ -99,9 +98,6 @@
                     </div>
                     <div class="carousel-item">
                       <video src="./src/multimedia/videos/wine3.mp4" class="d-block w-100" autoplay loop muted></video>
-                    </div>
-                    <div class="carousel-item">
-                      <video src="./src/multimedia/videos/wine4.mp4" class="d-block w-100" autoplay loop muted></video>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -119,7 +115,7 @@
         <section class="container-fluid">
                 <!--Acá va un carrucel con 5 imágenes que van a ir pasando automática y/o manualmente -->
                 <!-- Carrusel de Bootstrap con transicion de tipo crossfade-->
-                <div id="carouselExampleFade" class="carousel slide carousel-fade row" data-bs-ride="carousel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade row" data-bs-ride="carousel" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="carousel-inne col-12">
                       <div class="carousel-item active">
                         <img src="./src/multimedia/imagenes/vino-carrucel/imagen-vino1.jpg" class="d-block w-100" alt="viñedos de uvas">
@@ -193,7 +189,7 @@
                         <img class="contenedor5--img2" src="./src/multimedia/imagenes/vinos-destacados/vino-destacado3.webp" alt="vino tinto">
                     </div>
                     <div>
-                        <h5 class="descripcion-producto">Vino Tinto Genitori Gualta Superuco Malbec Cabernet Franc 750 ml.</h5>
+                        <h5 class="descripcion-producto">Vino Tinto Genitori Superuco Malbec Cabernet 750 ml.</h5>
                         <p class="precio-vino">$11200</p>
                         <button class="boton-comprar">Comprar</button>
                     </div>
@@ -205,7 +201,7 @@
                         <img class="contenedor5--img3" src="./src/multimedia/imagenes/vinos-destacados/vino-destacado4.webp" alt="vino rosado">
                     </div>
                     <div>
-                        <h5 class="descripcion-producto">Vino Tinto Luigi Bosca Cabernet Sauvignon El Esteco 750 ml.</h5>
+                        <h5 class="descripcion-producto">Vino Tinto Luigi Bosca Cabernet Sauvignon 750 ml.</h5>
                         <p class="precio-vino">$1350</p>
                         <button class="boton-comprar">Comprar</button>
                     </div>
@@ -257,7 +253,7 @@
     <footer class="fluid-container">
       <div class="footer-img-nav">
         <!-- Logo de la página-->
-        <a href="./index.html"><img class="logo" src="./src/multimedia/imagenes/logowine.png" alt="GoodWine | Lo mejor del buen vino"></a>
+        <a href="./index.html"><img class="logo" src="./src/multimedia/imagenes/logowine.png" alt="GoodWine | Lo mejor del buen vino" data-aos="flip-up" data-aos-duration="1500"></a>
         <!--Zona navegable-->
         <nav>
             <ul class="footer-item">
@@ -280,18 +276,22 @@
             </div>
         </div>
     </footer>
-    <!-- Copyright -->
-<div class="copyright d-flex justify-content-center"><p class="copyright-text">© 2021 Developed by</p>
-  <a class="copyright-autor" href="#">Sergio Toledo</a>
-</div>
+  <!-- Copyright -->
+  <div class="copyright d-flex justify-content-center">
+    <p class="copyright-text">© 2021 Developed by</p>
+    <a class="copyright-autor" href="https://github.com/sergioftoledo" target="_blank">Sergio Toledo</a>
+  </div>
   <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Preloader -->
+  <div class="lds-dual-ring loader" id="loader"></div>
+  <script src="./js/preloader.js"></script>
 </body>
 
 </html>

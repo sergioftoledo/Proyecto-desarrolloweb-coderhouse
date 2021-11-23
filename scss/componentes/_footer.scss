@@ -24,20 +24,20 @@ html {
             .footer-img-nav {
                 display: flex;
                 border-bottom: 1px solid black;
+                justify-content: space-between;
             }
     
             .footer-item {
-                display: flex;
-                flex-wrap: wrap;
                 list-style: none;
                 padding-top: 5px;
     
                 .footer-sub-item {
+                    display: flex;
                     padding-top: 15px;
                     margin: 0 48px;
     
                     a {
-                        font-size: 10px;
+                        font-size: 12px;
                         list-style: none;
                         color: #fff;
                         text-decoration: none;
@@ -51,8 +51,8 @@ html {
 
                     @media (min-width: 820px) and (max-width: 1200px) {
                         a {
-                            font-size: 16px;
-                            padding-left: 59px;
+                            font-size: 15px;
+                            padding-left: 52px;
                         }
                     }
 
@@ -68,6 +68,12 @@ html {
                     .footer-sub-item {
                         margin: 28px 45px 0;
                     }
+                }
+            }
+
+            @media (min-width: 620px) {
+                .footer-item {
+                    display: flex;
                 }
             }
     

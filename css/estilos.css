@@ -17,6 +17,52 @@ html body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Preloader */
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader {
+  z-index: 1000;
+  position: fixed;
+  background: #000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  clip-path: circle(142% at 0 50%);
+  transition: clip-path 0.8s ease-in-out;
+}
+
+.loader2 {
+  clip-path: circle(0 at 100% 100%);
+}
+
 /* Fuente que se usará para toda la página */
 /* Header */
 /* Variables */
@@ -258,7 +304,7 @@ main .seccion-5-contenedor .seccion-5-contenedor-vinos:hover {
 @media (min-width: 820px) {
   main .seccion-5-contenedor .seccion-5-contenedor-vinos {
     margin: 13px 5px;
-    width: 307px;
+    width: 315px;
   }
 }
 main .seccion-6 {
@@ -352,19 +398,19 @@ html body footer a {
 html body footer .footer-img-nav {
   display: flex;
   border-bottom: 1px solid black;
+  justify-content: space-between;
 }
 html body footer .footer-item {
-  display: flex;
-  flex-wrap: wrap;
   list-style: none;
   padding-top: 5px;
 }
 html body footer .footer-item .footer-sub-item {
+  display: flex;
   padding-top: 15px;
   margin: 0 48px;
 }
 html body footer .footer-item .footer-sub-item a {
-  font-size: 10px;
+  font-size: 12px;
   list-style: none;
   color: #fff;
   text-decoration: none;
@@ -376,8 +422,8 @@ html body footer .footer-item .footer-sub-item a:hover {
 }
 @media (min-width: 820px) and (max-width: 1200px) {
   html body footer .footer-item .footer-sub-item a {
-    font-size: 16px;
-    padding-left: 59px;
+    font-size: 15px;
+    padding-left: 52px;
   }
 }
 @media (min-width: 1201px) {
@@ -389,6 +435,11 @@ html body footer .footer-item .footer-sub-item a:hover {
 @media (min-width: 820px) {
   html body footer .footer-item .footer-sub-item {
     margin: 28px 45px 0;
+  }
+}
+@media (min-width: 620px) {
+  html body footer .footer-item {
+    display: flex;
   }
 }
 html body footer .redes-sociales {
