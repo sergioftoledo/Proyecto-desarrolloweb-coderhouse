@@ -5,24 +5,77 @@ main {
         padding-top: 82px;
     }
 
+    .fondo-video {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        background: #000;
+        opacity: 0.35;
+    }
+
+    .video {
+        z-index: 0;
+        height: 88vh;
+    }
+
+    .contenedor-texto {
+        z-index: 2;
+        height: 100vh;
+        position: absolute;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1, p {
+            font-family: Dosis;
+            display: inherit;
+            text-align: center;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            text-decoration: underline #800f2f;
+        }
+
+        p {
+            font-size: 21px;
+        }
+    }
+
+    .contenedor-imagenes {
+        height: 400px;
+
+        .imagenes-carrusel {
+            height: 55vh;
+            object-fit: cover;
+        }
+    }
+
     .seccion-3 {
+
         font-style: italic;
-        margin: 20px 10px;
+        margin: 60px 10px;
         text-align: center;
 
         h2 {
             font-size: 16px;
+            font-family: Courgette;
         }
 
         @media (min-width: 820px) {
             h2 {
-                font-size: 23px;
+                font-size: 27px;
             }
         }
     }
 
     .seccion-4 {
         h2 {
+            padding: 30px 0;
             font-size: 23px;
         }
 
