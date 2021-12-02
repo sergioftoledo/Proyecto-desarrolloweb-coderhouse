@@ -160,7 +160,7 @@ main .contenedor-imagenes {
   height: 400px;
 }
 main .contenedor-imagenes .imagenes-carrusel {
-  height: 55vh;
+  height: 420px;
   object-fit: cover;
 }
 main .seccion-3 {
